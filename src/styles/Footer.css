@@ -1,0 +1,13 @@
+.a, .b{
+ height: 300px;
+ width: 100%;
+}
+.a{
+    clip-path: polygon(0 0,100% 0,100% 100%,0 calc(100% - 80px));
+    background: darkblue;
+}
+.b{
+    clip-path: polygon(0 0,100% 80px,100% 100%,0 100%);
+    margin-top: -70px;
+    background: blueviolet;
+}

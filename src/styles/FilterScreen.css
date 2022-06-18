@@ -1,0 +1,102 @@
+@font-face {
+    font-family: avin;
+    src: url(./myAssets/fonts/aviny.ttf);
+    /* src: local('MyFont'), url(./myAssets/fonts/aviny.ttf) format('ttf'); */
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+  }
+
+.m-f-c{
+    margin:0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;    
+}
+.m-f-c input,.m-f-c option,.m-f-c select{
+    font-family: avin;
+    font-size: 26px;
+    direction: rtl;
+}
+select{
+    background-color: #f8f9fa;
+    /* border-radius:2rem 1rem; */
+    width: 20rem;
+    text-align: center;
+    cursor: pointer;
+    /* color: #ccc; */
+}
+select:hover{
+    background-color: #f8f9fa;
+    color: #6c756e;
+}
+option{
+    /* background-color:#fd7e14; */
+    border-radius: 2rem;
+}
+.m-i{
+    width: 20rem;
+    border:2px solid orangered;
+    text-align: center;
+    border-radius: 2rem 1rem;
+    transition: all 0.5s ease-in;
+    box-sizing: border-box;
+    /* box-shadow: ; */
+}
+.m-i:hover{
+    background-color: plum;
+    transform: scale(1.1);
+    transition: all 0.4s ease-in;
+}
+.m-b{
+    border:0.1rem solid #333;
+    width: 10rem;
+    height: 5rem;
+    text-align: center;
+    font-family: avin;
+    background-color: #28a745;
+    margin:0 auto;
+    display: block;
+    position: relative;
+    bottom: 15rem;
+    font-size: 28px;
+    border-radius: 1rem 1rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+.m-b:hover{    
+    border-radius: 2rem 1rem;
+    transition: all 0.4s ease-in;
+    background-color: #20c997;
+    color: #343a40;
+    transform: scale(1.01   );
+}
+.m-b-2{
+    text-decoration: none;
+    color: #111;
+    line-height: 70px;
+    font-size: 28px;
+    border-radius: 1rem 1rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+    border:0.1rem solid #333;
+    width: 15rem;
+    height: 5rem;
+    text-align: center;
+    font-family: avin;
+    background-color: #007bff;
+    margin:0 auto;
+    display: block;
+    position: relative;
+    top: 10rem;
+}
+.m-b-2:hover{
+    border-radius: 2rem 1rem;
+    transition: all 0.4s ease-in;
+    background-color: #17a2b8;
+    color: #333;
+    transform: scale(1.01); 
+}
+
+
