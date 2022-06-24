@@ -84,8 +84,7 @@ option{
     width: 15rem;
     height: 5rem;
     text-align: center;
-    font-family: avin;
-    background-color: #007bff;
+    font-family: avin;    
     margin:0 auto;
     display: block;
     position: relative;
@@ -97,6 +96,15 @@ option{
     background-color: #17a2b8;
     color: #333;
     transform: scale(1.01); 
+}
+.mbg-b{
+    background-color: #007bff;
+}
+.mbg-y{
+    background-color: #ffc107;
+}
+.mbg-g{
+    background-color: #28a745;
 }
 
 
